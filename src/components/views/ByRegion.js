@@ -36,7 +36,7 @@ export default function ByRegion() {
       <input
         type={"radio"}
         name="region"
-        value="America"
+        value="Americas"
         onClick={handleChange}
       />
       <label style={{ marginRight: "15px" }}>America</label>
