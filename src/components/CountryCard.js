@@ -1,9 +1,12 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
 export default function CountryCard({ country }) {
   //name,capital,flag,area,population
   return (
-    <div
+    <NavLink to={`/OneCounrty/${country.alpha2Code}`}>
+   
+  
+    <div className="singleCard"
       style={{
         border: "1px solid black",
         padding: "10px",
@@ -25,5 +28,6 @@ export default function CountryCard({ country }) {
         <b>Population:</b> {country.population}
       </div>
     </div>
+    </NavLink>
   );
 }

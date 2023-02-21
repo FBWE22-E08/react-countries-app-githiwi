@@ -21,3 +21,9 @@ text-align: center;
 .active{
   color: red;
 }
+
+.singleCard{
+  color: #000;
+  text-decoration: none;
+  
+}
